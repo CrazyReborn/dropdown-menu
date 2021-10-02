@@ -1,0 +1,38 @@
+nav {
+    background-color: navy;
+    color: whitesmoke;
+    font-size: 24px;
+    flex-direction: column;
+    width: auto;
+    cursor: grab;
+    margin:0;
+}
+
+ul {
+    font-size: 24px;
+    background-color: inherit;
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+}
+
+li {
+    background-color: navy;
+    color: white;
+}
+
+li:hover {
+    background-color: mediumblue;
+}
+
+.show-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-main {
+    margin: 0;
+}
